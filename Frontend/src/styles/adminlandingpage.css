@@ -1,0 +1,40 @@
+.admin-landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .admin-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #81561f;
+  }
+  
+  .admin-action {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    background-color: #1b1b1b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .admin-action:hover {
+    background-color: #81561f;
+  }
+  .book-image {
+  width: 10%;
+  height: 10%;
+  display: block;
+  margin-top: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Add this to your CSS file */
+.book-rating {
+  margin-top: 10px; /* Adjust margin as needed */
+}

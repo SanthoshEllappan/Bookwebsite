@@ -1,0 +1,122 @@
+
+
+/* Login Container */
+.login {
+  /* Set background image */
+  background-image: url('../assets/6.jpg'); /* Update this path to the correct location */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered Container */
+.container {
+  background-color: rgba(138, 62, 62, 0.3); /* White background with 30% opacity */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Centering Content */
+.center {
+  text-align: center;
+}
+
+/* Form Heading */
+.signup-heading {
+  color: #885f48; /* Dark cyan color for the heading */
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+.txt_field {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.txt_field input {
+  width: 100%;
+  padding: 15px 15px 15px 15px; /* Adjust padding to leave space for the label */
+  border: 1px solid #000000; /* Dark cyan border */
+  border-radius: 4px; /* Slightly rounded corners */
+  background-color: #f1f8e9; /* Light green background */
+  font-size: 16px;
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.txt_field label {
+  position: absolute;
+  top: 50%; /* Initial position of the label */
+  left: 15px;
+  color: #866450; /* Dark cyan label color */
+  font-size: 10px;
+  pointer-events: none; /* Prevents label from interfering with input */
+  transition: 0.2s ease-out;
+  background: white; /* Ensure background is white */
+  padding: 0px; /* Add some padding around the label */
+  transform: translateY(-50%); /* Center label vertically */
+}
+
+.txt_field input:focus + label,
+.txt_field input:not(:placeholder-shown) + label {
+  top: -20px; /* Move label upwards */
+  left: 10px;
+  font-size: 12px;
+  color: hsl(36, 55%, 30%); /* Darker cyan for active label */
+}
+
+/* Placeholder Styling */
+.txt_field input::placeholder {
+  color: transparent; /* Hide default placeholder text */
+}
+
+/* Role Selection */
+.role_selection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.role_selection label {
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+/* Submit Button */
+input[name="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #866450; /* Dark cyan background */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[name="submit"]:hover {
+  background-color: #4d2900; /* Darker cyan on hover */
+}
+
+/* Signup Link */
+.signup_link {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.signup_link a {
+  color: #00796b; /* Dark cyan link color */
+  text-decoration: none;
+}
+
+.signup_link a:hover {
+  text-decoration: underline;
+} 
+

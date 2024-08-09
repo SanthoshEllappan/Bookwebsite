@@ -1,0 +1,92 @@
+/* Container Styles */
+.admin-add-book-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #805824;
+}
+
+/* Title Styles */
+.admin-add-book-title {
+  font-size: 2em;
+  font-weight: 700;
+  color: #201f1f;
+  margin-top: -40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Form Styles */
+.admin-add-book-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #725126;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.form-control {
+  padding: 8px;
+  font-size: 1em;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #0056b3;
+  background-color: #fff;
+  outline: none;
+}
+
+/* Submit Button Styles */
+.btn-submit {
+  padding: 14px 0;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #976626;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  text-align: center;
+}
+
+.btn-submit:hover {
+  background-color: #5e3c10;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .admin-add-book-container {
+    padding: 20px;
+  }
+
+  .admin-add-book-title {
+    font-size: 1.8em;
+  }
+
+  .btn-submit {
+    font-size: 1.1em;
+  }
+}
